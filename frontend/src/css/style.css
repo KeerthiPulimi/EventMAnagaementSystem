@@ -1,0 +1,273 @@
+/* .bodyss{
+height: 700px;
+background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/karaoke-night-design-template-19320395500bd2c185a114890c79cd42_screen.jpg?ts=1698304661');
+background-size: cover;
+background-repeat: no-repeat;
+background-blend-mode: lighten;
+ 
+}
+.registration-form{
+padding: 50px 0;
+height: 500px;
+}
+.registration-form form{
+background-color: #fff;
+max-width: 600px;
+margin: auto;
+padding: 50px 70px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+border-radius: 20PX;
+}
+.registration-form .create-account{
+border-radius: 30px;
+padding: 10px 20px;
+font-size: 18px;
+font-weight: bold;
+background-color: #5791ff;
+border: none;
+color: white;
+margin-top: 20px;
+} */
+/* search baar */
+
+.form span{
+    position: absolute;
+right: 17px;
+top: 13px;
+padding: 2px;
+border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+padding-left: 7px;
+}
+
+.left-pan i{
+
+padding-left: 10px;
+}
+.boxes-container {
+display: flex; /* Or use grid layout if preferred */
+justify-content: space-between; /* Distribute boxes evenly */
+align-items: center; /* Vertically align content within boxes */
+}
+
+.box {
+/* Adjust styles for boxes as needed for horizontal layout */
+margin: 0px; /* Or adjust as needed */
+}
+
+.form-input{
+
+height: 50px;
+text-indent: 33px;
+border-radius: 20px;
+width: 60rem;
+}
+
+.form-input:focus{
+
+box-shadow: none;
+border:none;
+}
+
+
+
+.form{
+
+position: relative;
+left: 70px;
+}
+/* carousel */
+
+/* padding:30px; */
+section.awSlider{
+
+margin:10px auto;
+position:relative;
+display:table;
+
+}
+
+.register{
+margin-top: 50px;
+position: relative;
+left: 40%;
+border: 1px solid black;
+border-radius: 5px solid rgb(255, 255, 255);
+background-color: rgb(45, 45, 46);
+
+width: 350px;
+min-height: 550px;
+}
+.register-event {
+margin-top: 50px;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+border: 1px solid rgb(229, 215, 215);
+border-radius: 5px;
+/* background-color: rgb(19, 2, 53); */
+width: 500px;
+min-height: 550px;
+padding: 20px; /* Added padding for better spacing */
+}
+
+.input-event {
+width: 250px;
+padding: 5px;
+margin: 5px;
+border-radius: 5px;
+}
+.event-btn{
+width: 250px;
+padding: 5px;
+margin: 5px;
+border-radius: 5px;
+position: relative;
+left: 80px;
+}
+
+.register-title {
+text-align: center; /* Center align the title */
+font-size: x-large;
+color: aliceblue;
+margin:50px;
+margin-bottom: 20px; /* Added some margin below the title */
+}
+
+.form-group {
+display: flex;
+margin-bottom: 10px; /* Added margin bottom for better spacing */
+}
+
+.input-name {
+font-size: larger;
+color: aliceblue;
+min-width: 120px; /* Adjust according to your label size */
+margin-right: 10px; /* Added margin to separate label and input */
+display: inline-block; /* Ensures that label takes up minimum space */
+flex-shrink: 0; /* Prevents label from shrinking */
+margin-left: 50px;
+}
+
+.inputs{
+padding: 5px;
+border: 1px solid black;
+border-radius: 15px;
+margin-left: 50px;
+width: 250px;
+}
+.inputfile{
+padding: 5px;
+border: 1px solid black;
+border-radius: 15px;
+margin-left: 50px;
+width: 250px;
+}
+.back-color{
+background-color: rgb(11, 3, 67);
+
+}
+
+.page{
+margin-top: 50px;
+position: relative;
+left: 10%;
+width: 300px;
+min-height: 300px;
+/* background-color: rgb(246, 248, 250); */
+}
+.back{
+margin-top: 5px;
+position: relative;
+left: 5px;
+}
+
+.box{
+margin-top: 100px;
+width: 00px;
+height: 200px;
+right: 10px;
+position: relative;
+left: 50px;
+background-color: rgb(105, 109, 112);
+border-radius: 10px;
+}
+
+.diagram{
+width: 200px;
+height: 200px;
+position: relative;
+left: 50px;
+margin-top: 30px;
+/* border: 1px solid rgb(82, 80, 80); */
+
+}
+
+.titles{
+color: rgb(248, 245, 245);
+margin-top: 5px;
+margin-left: 25px;
+}
+
+.main{
+margin: 0px;
+width: 100%;
+height: 100vh;
+background-color: rgb(11, 3, 67);
+}
+
+.singup{
+margin-top: 10px;
+color: aliceblue;
+position: relative;
+left: 100px;
+font-size: large;
+
+}
+.signup-container {
+    text-align: center;
+    margin-left: 40px;
+  }
+  
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+  }
+  .signup-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup-text {
+    margin-right: 10px; /* Adjust this value to move the text further to the left */
+}
+
+.signup-link {
+    margin-right: 20px; /* Adjust this value to increase/decrease the gap between the text and the link */
+}
+.singup span{
+cursor: pointer;
+font-size: larger;
+}
+.close-button{
+margin-left: 250px;
+}
+.margin-top{
+margin-top: 100px;
+}
+.logok{
+width: 50px;
+border-radius: 30%;
+}
+.spinners{
+position: relative;
+left: 150px;
+top: 50px;
+}
